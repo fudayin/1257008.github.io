@@ -1,0 +1,98 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: deeppink;
+    color: rgb(255, 0, 0);
+text-decoration:  underline blink；
+}
+
+h1 {
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 宋体;
+
+}
+
+p{
+    text-indent: 20px;
+}
+
+h2{
+    background-color: #05b0ff;
+    color: white;
+    line-height: 30px;
+    padding-left:10px;
+}
+
+.dt {
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 0;
+    background-image: url("bg.jpg")
+}
+h3{text-align: center;}
+ 
+*{color: rgb(0, 44, 139)}
+
+
+@media (max-width:960px)
+{
+h2{color: gold;
+background-color: firebrick;
+
+}
+h1 {color: rgb(236, 76, 13)}
+.container{
+    width: 550px;
+    padding: 20px 30px;
+}
+.dt{display: none;}
+
+.header{background-color: rgb(22, 201, 186);
+float: left;
+width: 250px;
+height: 350px;
+margin-top: 20px;
+line-height: 50px
+}
+
+
+.table{background-color: grey;
+ float: left;
+ margin-top: 20px;
+width: 300px;
+height: 350px;
+}
+
+    .middle{background-color: rgb(128, 125, 126) ;
+    float: left;
+    width: 250px;
+    height: 350px;
+}
+
+
+    .footer{background-color: darkseagreen;
+float: right;
+width: 300px;
+height: 350px;
+}
+
+h2{
+    margin-top: 0px}
+
+
+}
+
